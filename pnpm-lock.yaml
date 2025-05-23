@@ -257,6 +257,8 @@ importers:
 
   apps/frontend-e2e: {}
 
+  libs/account/backend/account: {}
+
 packages:
 
   /@adobe/css-tools@4.3.3:

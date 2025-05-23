@@ -8,7 +8,8 @@ import { faker } from '@faker-js/faker';
 const prisma = new PrismaClient();
 
 async function main() {
-    for (let i = 0; i <= 10; i++) {
+    // create 10 accounts
+    for(let i = 0; i <= 10; i++) {
         await prisma.account.create({ 
             data:  {
                 id: String(i),
