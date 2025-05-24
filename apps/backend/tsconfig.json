@@ -4,6 +4,9 @@
   "include": [],
   "references": [
     {
+      "path": "../../libs/account/backend/account"
+    },
+    {
       "path": "./tsconfig.app.json"
     },
     {

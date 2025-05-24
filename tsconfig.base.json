@@ -5,7 +5,7 @@
     "emitDeclarationOnly": true,
     "importHelpers": true,
     "isolatedModules": true,
-    "lib": ["es2022"],
+    "lib": ["es2022", "dom"],
     "module": "esnext",
     "moduleResolution": "bundler",
     "noEmitOnError": true,
@@ -19,6 +19,14 @@
     "customConditions": ["development"],
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "ES5"
+    "rootDir": ".",
+    "baseUrl": ".",
+    "sourceMap": true,
+    "noResolve": false,
+    "skipDefaultLibCheck": true,
+    "paths": {
+      "@pet-radar/accounts": ["libs/account/backend/account/src/index.ts"],
+      "@pet-radar/users": ["libs/user/backend/user/src/index.ts"]
+    }
   }
 }

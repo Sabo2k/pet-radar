@@ -31,7 +31,7 @@
           "watchDepsName": "watch-deps"
         }
       },
-      "exclude": ["libs/account/backend/account/*"]
+      "exclude": ["libs/account/backend/account/*", "libs/user/backend/user/*"]
     },
     {
       "plugin": "@nx/react/router-plugin",
@@ -92,7 +92,7 @@
     },
     {
       "plugin": "@nx/js/typescript",
-      "include": ["libs/account/backend/account/*"],
+      "include": ["libs/account/backend/account/*", "libs/user/backend/user/*"],
       "options": {
         "typecheck": {
           "targetName": "typecheck"

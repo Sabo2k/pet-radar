@@ -259,6 +259,8 @@ importers:
 
   libs/account/backend/account: {}
 
+  libs/user/backend/user: {}
+
 packages:
 
   /@adobe/css-tools@4.3.3:
